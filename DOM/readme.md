@@ -40,7 +40,11 @@ A shorthand to use is the document.querySelector() which is the recommended one 
 - to get a class with query selector, prefix it with . (a dot)
 - to get a tag, just write it with no prefix
 
-NOTE: querySelector only returns 1 element, use querySelectorAll to get multiple items
+<br />
+
+> querySelector only returns 1 element, use querySelectorAll to get multiple items
+
+<br />
 
 ```js
 const variable_d = document.querySelector("#text");

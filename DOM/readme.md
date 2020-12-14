@@ -22,6 +22,7 @@ That way, our JavaScript can connect to the page.
 `document.getElementsByTagName();` gets elements based on tagName like h1, p or div
 
 `document.getElementsByClassName();` gets elements base on their class names
+
 `document.querySelector();` // this is a shortand that can be used for any type of syntax
 
 `document.querySelectorAll();` functions just like querySelector but is used to return multiple items

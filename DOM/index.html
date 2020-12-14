@@ -8,9 +8,17 @@
   <body>
     <div>
       <p id="text">A webpage</p>
-      <p class="another_text">same webpage</p>
+      <p id="copyright" class="copyright"></p>
     </div>
   </body>
 
-  <script src="./index.js"></script>
+  <script>
+    //getting an element with class (prefix with dot)
+    const copyRightElement = document.querySelector(".copyright");
+
+    copyRightElement.innerHTML = `&copy; ${new Date().getFullYear()} DSC UI. All rights reserved!`;
+
+    // getting the same element with id(es6)  (prefix with #)
+    // const copyRightElement = document.querySelector("#copyright");
+  </script>
 </html>
